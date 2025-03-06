@@ -6,13 +6,13 @@
 #    By: rcurty-g <rcurty-g@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/03 11:37:29 by rcurty-g          #+#    #+#              #
-#    Updated: 2025/03/03 15:27:25 by rcurty-g         ###   ########.fr        #
+#    Updated: 2025/03/06 12:26:33 by rcurty-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = philo
 CC = cc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -fsanitize=adress
 
 SRC = main.c init.c utils.c behavior.c \
      actions.c validation.c
