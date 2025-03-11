@@ -6,7 +6,7 @@
 /*   By: rcurty-g <rcurty-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/03 11:59:26 by rcurty-g          #+#    #+#             */
-/*   Updated: 2025/03/03 15:25:36 by rcurty-g         ###   ########.fr       */
+/*   Updated: 2025/03/11 12:53:31 by rcurty-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,9 @@ void	logs(t_philo *p, int status)
 	pthread_mutex_unlock(&p->data->log);
 }
 
-//Define as ações principais do filósofo, alternando entre comer,
-// dormir e pensar. A simulação termina quando o filósofo morre
-// ou alcança o número de refeições necessárias.
+// Defines the philosopher's main actions, alternating between eating,
+// sleeping and thinking. The simulation ends when the philosopher dies
+// or reaches the required number of meals.
 void	*behavior(void *philo_ptr)
 {
 	t_philo	*philo;
