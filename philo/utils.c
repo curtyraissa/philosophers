@@ -6,13 +6,13 @@
 /*   By: rcurty-g <rcurty-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/03 11:59:29 by rcurty-g          #+#    #+#             */
-/*   Updated: 2025/03/05 11:35:57 by rcurty-g         ###   ########.fr       */
+/*   Updated: 2025/03/06 12:00:18 by rcurty-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-// Pauses execution in microseconds.
+// Pauses execution.
 // Adjusts the wait time to prevent the philosopher from dying prematurely.
 void	usleep_time(t_philo *philo, u_int64_t time)
 {
